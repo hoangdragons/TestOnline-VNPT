@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestOnline.Views.LoginPage"
+             Title="Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HeightRequest="110"  
+                   HorizontalOptions="FillAndExpand" 
+                   Text="LOGIN" 
+                   FontSize="40" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <Entry Text="{Binding CurrentUsers.UserName}" Placeholder="Tên đăng nhập"   
+                   Margin="20,0,20,0" 
+                   HeightRequest="50"/>
+            <Entry Text="{Binding CurrentUsers.Password}" IsPassword="True" Placeholder="Mật khẩu"
+                   Margin="20,0,20,0" 
+                   HeightRequest="50"/>
+            <Button Command="{Binding LoginCommand}" Margin="20,0,20,0" 
+                    HeightRequest="50" 
+                    TextColor="White" 
+                    Text="Đăng nhập"  
+                    BackgroundColor="RoyalBlue"
+                    HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
