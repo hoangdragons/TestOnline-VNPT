@@ -38,7 +38,7 @@ namespace TestOnline.ViewModels
             {
                 string mes = "Xin chào " + CurrentUsers.Name;
                 await CurrentPage.DisplayAlert("Đăng nhập Thanh công", mes, "OK");
-                await Navigation.PushModalAsync(new NavigationPage(new ItemsPage()));
+                await Navigation.PushModalAsync(new NavigationPage(new ExamPage()));
             }
             else
             {

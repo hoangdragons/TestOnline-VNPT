@@ -21,6 +21,7 @@ namespace TestOnline.Views
 
             BindingContext = viewModel = new LoginViewModel();
             viewModel.CurrentPage = this ;
+            viewModel.Navigation = this.Navigation;
         }
 	}
 }
