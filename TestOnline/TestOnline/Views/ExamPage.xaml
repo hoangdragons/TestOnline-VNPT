@@ -19,7 +19,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal">
-                            <Label Margin="14,10" Text="{Binding Title}" FontSize="Large" VerticalTextAlignment="Center" HorizontalOptions="Start"/>
+                            <Label Margin="14,10" Text="{Binding Content}" FontSize="Large" VerticalTextAlignment="Center" HorizontalOptions="Start"/>
                             <Grid HorizontalOptions="EndAndExpand" Margin="14,0">
                                 <Label Text="○" FontSize="20" TextColor="{StaticResource MediumGray}" VerticalTextAlignment="Center"/>
                                 <Label Text="●" FontSize="20" TextColor="{StaticResource BrandColor}" IsVisible="{Binding IsSelected}" VerticalTextAlignment="Center" />
@@ -31,7 +31,7 @@
             <!-- Footer -->
             <ListView.Footer>
                 <StackLayout Margin="10,15">
-                    <Button Text="Apply" HorizontalOptions="Center" WidthRequest="150" Clicked="Handle_Clicked"/>
+                    <Button Text="Send" HorizontalOptions="Center" WidthRequest="150" Clicked="Handle_Clicked"/>
                 </StackLayout>
             </ListView.Footer>
         </ListView>

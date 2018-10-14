@@ -6,10 +6,16 @@ namespace TestOnline.ViewModels
 {
     public class RadioOption : INotifyPropertyChanged
     {
-        public RadioCategory Category { get; }
-        public string Title { get; }
+        public int IdCategory { get; set; }
+
+        public string Content { get; }
+
+        public string TitleCategory { get; }
+
+        public int IdContent { get; set; }
 
         private bool _isSelected { get; set; }
+
         public bool IsSelected 
         {
             get => _isSelected;
@@ -23,10 +29,13 @@ namespace TestOnline.ViewModels
             }
         }
 
-        public RadioOption(RadioCategory category, string title, bool isSelected = false)
+        public RadioOption(int idcategory, string titleCategory, int idcontent, string content, bool isSelected = false)
         {
-            this.Category = category;
-            this.Title = title;
+
+            this.IdCategory = idcategory;
+            this.TitleCategory = titleCategory;
+            this.IdContent = idcontent;
+            this.Content = content;
             this.IsSelected = isSelected;
         }
 
@@ -42,13 +51,5 @@ namespace TestOnline.ViewModels
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
-    }
-
-    public enum RadioCategory
-    {
-        CategoryA,
-        CategoryB,
-        CategoryC,
-        CategoryD
     }
 }
