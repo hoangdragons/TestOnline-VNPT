@@ -841,11 +841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\VNPT\\TestOnline\\TestOnline\\TestOnline.iOS\\TestOnline.iOS.csproj",
+      "projectUniqueName": "E:\\WorkSpace\\Git\\TestOnline-VNPT\\TestOnline\\TestOnline.iOS\\TestOnline.iOS.csproj",
       "projectName": "TestOnline.iOS",
-      "projectPath": "E:\\WorkSpace\\VNPT\\TestOnline\\TestOnline\\TestOnline.iOS\\TestOnline.iOS.csproj",
+      "projectPath": "E:\\WorkSpace\\Git\\TestOnline-VNPT\\TestOnline\\TestOnline.iOS\\TestOnline.iOS.csproj",
       "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\VNPT\\TestOnline\\TestOnline\\TestOnline.iOS\\obj\\",
+      "outputPath": "E:\\WorkSpace\\Git\\TestOnline-VNPT\\TestOnline\\TestOnline.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -862,8 +862,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\WorkSpace\\VNPT\\TestOnline\\TestOnline\\TestOnline\\TestOnline.csproj": {
-              "projectPath": "E:\\WorkSpace\\VNPT\\TestOnline\\TestOnline\\TestOnline\\TestOnline.csproj"
+            "E:\\WorkSpace\\Git\\TestOnline-VNPT\\TestOnline\\TestOnline\\TestOnline.csproj": {
+              "projectPath": "E:\\WorkSpace\\Git\\TestOnline-VNPT\\TestOnline\\TestOnline\\TestOnline.csproj"
             }
           }
         }
